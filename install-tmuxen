@@ -2,12 +2,13 @@
 #
 # name     : install-tmuxen, tmuxen install script
 # author   : Xu Xiaodong <xxdlhy@gmail.com>
+# author   : CzBiX <gliuwr@gmail.com>
 # license  : GPL
 # created  : 2012 Jul 02
-# modified : 2013 Jul 06
+# modified : 2014 Jun 01
 #
 
-bin=$HOME/bin
+bin=$HOME/.local/bin
 cwd=$(pwd)
 
 if [ ! -d $bin ]; then
